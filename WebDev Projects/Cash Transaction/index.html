@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,3 +26,32 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cash Withdrawal</title>
+</head>
+<body>
+    <script src="CashWithdraw.js"></script>
+    <h1>Cash Withdrawal</h1>
+    <form id="withdrawalForm">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+    <br>
+        <label for="payment_mode">Payment Mode:</label>
+        <select id="payment_mode" name="payment_mode" required>
+            <option value="UPI">UPI</option>
+            <option value="ATM">ATM</option>
+            <option value="Cash">Cash</option>
+        </select>
+    <br>
+        <button type="button" onclick="cashWithdrawal()">Withdraw</button>
+    </form>
+
+</body>
+</html>
+>>>>>>> 384228e6e3336da843d4b7e30be7dcec3f992eb9
